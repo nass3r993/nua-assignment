@@ -25,7 +25,6 @@ toolkit = VulnerabilityValidatorToolkit()
 xss_finding = {
     'url': 'https://example.com/search?q=test',
     'payload': '<script>alert(1)</script>',
-    'parameter': 'q',
     'response_body': '<div><script>alert(1)</script></div>'
 }
 
