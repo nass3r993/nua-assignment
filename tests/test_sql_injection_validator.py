@@ -10,7 +10,8 @@ toolkit = VulnerabilityValidatorToolkit()
 # ✅ Valid – error-based SQLi triggers database error
 print("1. Valid vulnerability – error-based SQLi:")
 error_based_sqli = {
-    "url": "https://target.com/login?user=admin'--",
+    "url": "https://target.com/login",
+    "payload":"admin'--"
     "response_body": "Syntax error: near \"'--\""
 }
 print(json.dumps(error_based_sqli, indent=4))
