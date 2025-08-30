@@ -30,14 +30,14 @@ xss_finding = {
 
 toolkit.print_result(toolkit.validate_finding('xss', xss_finding))
 ```
- ![image](https://i.ibb.co/j0yvB7m/POC-0842.png)
- ![image](https://i.ibb.co/j0yvB7m/POC-0842.png)
+![image](https://i.ibb.co/j0yvB7m/POC-0842.png)
+
 ### Run Tests
 
 ```bash
 python run_tests.py
 ```
- ![image](https://i.ibb.co/j0yvB7m/POC-0842.png)
+
 ## Vulnerability Validators
 
 ### 1. XSS (Cross-Site Scripting) Validator
