@@ -40,8 +40,8 @@ toolkit.print_result(toolkit.validate_finding('rce', waf_blocked_rce))
 # ❌ Normal Response – no RCE
 print("4. Normal Response – no RCE:")
 normal_response_rce = {
-    "url": "https://target.com/run?cmd=cat+/var/www/html/config.php",
-    "payload": "cat /var/www/html/config.php",
+    "url": "https://target.com/run?cmd=cat+/etc/passwd",
+    "payload": "cat /etc/passwd",
     "response_body": "<h1> Home page</h1>"
 }
 print(json.dumps(normal_response_rce, indent=4))
