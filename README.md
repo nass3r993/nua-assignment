@@ -32,6 +32,8 @@ toolkit.print_result(toolkit.validate_finding('xss', xss_finding))
 ```
 
 ![image](https://i.ibb.co/j0yvB7m/POC-0842.png)
+
+Image:
 (https://i.ibb.co/j0yvB7m/POC-0842.png)
 
 ### Run Tests
