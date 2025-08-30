@@ -23,7 +23,7 @@ toolkit = VulnerabilityValidatorToolkit()
 
 # Validate an XSS finding
 xss_finding = {
-    'url': 'https://example.com/search?q=test',
+    'url': 'https://example.com/search',
     'payload': '<script>alert(1)</script>',
     'response_body': '<div><script>alert(1)</script></div>'
 }
